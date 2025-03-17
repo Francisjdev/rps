@@ -32,7 +32,7 @@ function getWinner(humanChoice, computerChoice){
         console.log('the machina wins')
       
         return ++pcScore
-    }
+    } 
 }
 function playGame(humanChoice, computerChoice){
     return playRound(humanChoice, computerChoice)
